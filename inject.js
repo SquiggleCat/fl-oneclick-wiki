@@ -217,7 +217,7 @@
                     Kudos to @Thorsb for noticing this and researching this solution!
                     */
 
-                    if (branchContainer.classList.contains("storylet")) {
+                    if (branchContainer.classList.contains("storylet") || branchContainer.classList.contains("persistent")) {
                         categories = ["Card", "Storylet"];
                     } else {
                         categories = ["Action", "Fate Action", "Item Action", "Social Action"] ;
