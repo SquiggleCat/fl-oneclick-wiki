@@ -42,5 +42,16 @@
   },
   "web_accessible_resources": [
     "inject.js"
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{B1B09654-8125-48CC-AB09-D7F8BC2BEC0A}",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    },
+    "gecko_android": {
+      "id": "{B1B09654-8125-48CC-AB09-D7F8BC2BEC0A}"
+    }
+  }
 }
