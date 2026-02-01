@@ -241,7 +241,10 @@
                         container.insertBefore(wikiButton, container.firstChild);
                     }
                 }
-
+                
+                // uncomment the below lines to make quality requirements, sidebar qualities,
+                // and things on the Myself page link to the wiki
+                /*
                 let qualityIcons = node.querySelectorAll("div[class*='quality-requirement'] div[role='button'] img");
                 for (const qualityIcon of qualityIcons) {
                     qualityIcon.classList.remove("cursor-default");
@@ -310,6 +313,7 @@
                         }
                     }
                 }
+                */
             }
         }
     }));
