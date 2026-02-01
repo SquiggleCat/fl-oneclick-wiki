@@ -406,7 +406,7 @@
         };
     }
 
-    /*
+    /*gi
     Here we are doing passive storylet ID discovery, since calls to /api/storylet ARE NOT IDEMPOTENT
     (kudos to Saklad5 for informing me about it and light a candle for Seamus).
      */
